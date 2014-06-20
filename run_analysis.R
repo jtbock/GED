@@ -1,5 +1,7 @@
 #
 # Course Project for Getting and Extracting Data
+# 
+# Version 1.1
 #
 # This script should be run in the "UCI HAR Dataset" directory as extracted from the 
 # downloaded zip file (getdata_projectfiles_UCI HAR Dataset.zip)
