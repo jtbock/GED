@@ -2,6 +2,7 @@ This CodeBook has the following sections:
 * Choices, assumptions, method
 * Study Design
 * CodeBook
+
 ## Choices, assumptions, method
 * Only a subset of the original data was used to produce the tidy output.
 * The original data was contained in several files.
@@ -17,9 +18,12 @@ subject ID and one column for activity.  Each of the 180 rows corresponds to a u
   * Every measured variable is in its own column
   * Each different oservation (subject ID/activity combo) is in a different row
   * The output contains only a single observational unit.
+
 ## Study Design
 The original data was obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 ## CodeBook
+
 ### Variables 
 * SubjectID: Unique integer corresponding to an individual subject ranging from 1-30
 * Activity: One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
