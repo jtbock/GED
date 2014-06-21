@@ -6,7 +6,7 @@ This README contains the following sections:
 The data can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 ## Generating the output
-To obtain the tidy output using the run_analysis.R script:
+To obtain the tidy output using version 1.1 of the run_analysis.R script (version found in comments at top of script):
 * After unzipping the file, the run_analysis.R script should be placed in the resulting "UCI HAR Dataset" directory 
 * R should be started in the "UCI HAR Dataset" directory, or use setwd to set it as the working directory.
 * *source* the run_analysis.R script
