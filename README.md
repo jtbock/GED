@@ -19,10 +19,10 @@ a vector of indices which will be used to subset the combined test + training da
   * reads the train/subject_train.txt and test/subject_text.txt files for the subject IDs
   * replaces the integer representation of activity with the string representation of activity 
 in the y_train.txt and y_test.txt files.
-  * combines the test/training data, subject IDs, and activity labels into one dataframe
+  * combines the test/training data, subject IDs, and activity labels datasets into one dataframe
   * subsets the resulting dataframe with the indices obtained by searching for "mean" and "std" in the features.txt file
   * sets the column names to be more descriptive
   * creates a new data set via melt, using SubjectId and Activity as the IDs
   * creates the tidy output via dcast, again using SubjectID and Activity as the IDs with the remaining columns as the variables
-  * uses the *mean* function as the as the dcast function parameter to operate on each of the variable columns
-  * writes the output to a file named "tidy_averages.txt" in the working directory
+  * uses the *mean* function as the as the dcast function parameter to summarize each of the variable columns
+  * writes the output to a tab-separated file named "tidy_averages.txt" in the working directory
